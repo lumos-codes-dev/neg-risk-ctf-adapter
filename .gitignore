@@ -1,3 +1,5 @@
+.vscode/
+
 # Compiler files
 cache/
 out/
@@ -8,9 +10,12 @@ lcov.info
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
+/broadcast/*/11155111/
 
 # Dotenv file
 .env
+.env.testnet
+.env.local
 
 # python virtualenv
 env/
